@@ -3,7 +3,9 @@ import {Chessboard} from 'react-chessboard'
 
 function App() {
   return (
-   <Chessboard />
+  <div className='game'>
+     <Chessboard />
+  </div>
   );
 }
 
